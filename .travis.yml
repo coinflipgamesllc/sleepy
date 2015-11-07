@@ -2,9 +2,7 @@ language: objective-c
 osx_image: xcode61
 rvm:
 - 2.1.2
-before_install:
-- ls 
 install:
-- ./Assets/Coin\ Flip\ Games/Sleepy/Scripts/install.sh
+- ./Assets/CoinFlipGames/Sleepy/Scripts/install.sh
 script:
-- ./Assets/Coin\ Flip\ Games/Sleepy/Scripts/build.sh
+- ./Assets/CoinFlipGames/Sleepy/Scripts/build.sh

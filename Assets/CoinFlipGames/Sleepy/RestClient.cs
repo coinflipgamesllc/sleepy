@@ -46,7 +46,7 @@ namespace CoinFlipGames.Sleepy
 			}
 		}
 
-		private const string FileName = "Assets/Coin Flip Games/Sleepy/Resources/CoinFlipGames.Sleepy.txt";
+		private const string FileName = "Assets/CoinFlipGames/Sleepy/Resources/CoinFlipGames.Sleepy.txt";
 		private const string HttpEndpointKey = "CoinFlipGames.Sleepy.HttpEndpoint";
 		private const string ApiKeyKey = "CoinFlipGames.Sleepy.ApiKey";
 		private const string ApiSecretKey = "CoinFlipGames.Sleepy.ApiSecret";
