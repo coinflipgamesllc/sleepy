@@ -3,7 +3,7 @@ osx_image: xcode61
 rvm:
 - 2.1.2
 before_install:
-- pwd
+- ls 
 install:
 - ./Assets/Coin\ Flip\ Games/Sleepy/Scripts/install.sh
 script:
