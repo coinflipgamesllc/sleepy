@@ -1,0 +1,1 @@
+{"CoinFlipGames.Sleepy.Routes":[{"Method":"GET", "Signed":"False", "Path":"/", "Async":"False", "Name":"Index"}], "CoinFlipGames.Sleepy.Debug":true, "CoinFlipGames.Sleepy.HttpEndpoint":"https://example.com", "CoinFlipGames.Sleepy.ApiKey":"SOME_API_KEY", "CoinFlipGames.Sleepy.ApiSecret":"SOME_LONG_SECRET_KEY"}

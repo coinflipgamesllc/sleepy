@@ -1,0 +1,3 @@
+[submodule "Assets/Coin Flip Games/Sleepy/UnityHTTP"]
+	path = Assets/Coin Flip Games/Sleepy/UnityHTTP
+	url = https://github.com/andyburke/UnityHTTP.git
