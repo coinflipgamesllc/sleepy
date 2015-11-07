@@ -3,6 +3,6 @@ osx_image: xcode61
 rvm:
 - 2.1.2
 install:
-- ./Coin\ Flip\ Games/Sleepy/Scripts/install.sh
+- ./coinflipgamesllc/sleepy/Assets/Coin\ Flip\ Games/Sleepy/Scripts/install.sh
 script:
-- ./Coin\ Flip\ Games/Sleepy/Scripts/build.sh
+- ./coinflipgamesllc/sleepy/Assets/Coin\ Flip\ Games/Sleepy/Scripts/build.sh
