@@ -3,6 +3,15 @@ osx_image: xcode61
 rvm:
 - 2.1.2
 install:
-- ./Assets/CoinFlipGames/Sleepy/Scripts/install.sh
+- "./Assets/CoinFlipGames/Sleepy/Scripts/install.sh"
 script:
-- ./Assets/CoinFlipGames/Sleepy/Scripts/build.sh
+- "./Assets/CoinFlipGames/Sleepy/Scripts/build.sh"
+deploy:
+  provider: s3
+  access_key_id: AKIAIQCRKCIZQCK4ZLIA
+  secret_access_key:
+    secure: Aa/klY6MzqaVNH7fsFAL7ByNV9AJ8FxdqdNDYvB6iZz0RbdhiwhS5scn1UU4f23/jpTvL82QcJbT4Fhk0wehSyEJ9aHp8AuNffIg87xnUkdY8MQDpfMOzM2uYYDdZfwQhC1aGEpqZZ1zpHuWvdT4M/IlpTKSZfwluadBHa7m2WvJhR1Pj7vnZEzItLdlExL9e0c4mpWJjJJNo5TkrhS2XoiMIo9Ptm2621KeTgBAnQrVXiY1c6Nvdu+cdbwXTvUki/udjeYJxXX8E7NswID8knypZ8vZX6fCji5JipXIEgLFYGWWnX1m/itb0Fq1/GHhnQmaFl3AlbX0aKzFK9GCPy/iqwrmHKqUpyT8fCLk3jTJppyWKG3RsE/A6IGHIXX/qDOW/agb60PIr3FSpFoYVqJZLNzRJBESbT56hHPtoW2vw7SyDXeYQpLcH3Jn98pgvuk4yYHmTAxjSFLay/38d/bXtNgEpw9QmWUqE91GOtEEoErv4okiUCXsIsnQAHjb+p0zakSk2O818SVOiNnV9HzDwUcBihMYUuz6RtyTO8M5Iot17xmfX3Siq2LfisoeuySOxRb+tnnHggkHg+S+L0R/Dha/f88+NlSSjoti8HLrKcAX2qPPybp2hLOLvqRH7mJxegjP9ihkmYkBiYxbQzy43cyIitf4E8MFFqIFMjs=
+  bucket: coinflipgames.travis.builds
+  acl: public_read
+  on:
+    repo: coinflipgamesllc/sleepy
