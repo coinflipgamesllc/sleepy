@@ -12,7 +12,7 @@ echo "Attempting to build $project asset bundle"
   -silent-crashes \
   -logFile $(pwd)/unity.log \
   -projectPath $(pwd) \
-  -exportPackage $(pwd)/sleepy.unitypackage \
+  -exportPackage CoinFlipGames $(pwd)/sleepy.unitypackage \
   -quit
 
 echo 'Logs from build'
